@@ -1,10 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .bannar-container{
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     border: 2px solid red;
+    margin: 0 auto;
+    background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-top: 20px;
+}
+.image-text p, h1{
+    color: white;
+}
+.image-text p{
+    font-size: 32px;
+    font-weight: 400;
+}
+.image-text h1{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.image-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
 }
