@@ -78,7 +78,6 @@
 .image-bannar{
     width: 1320px;
     height: 600px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 120px;
     background-image: url('../images/Vectorrr.png');
@@ -88,7 +87,6 @@
 .leftsite-content{
     width: 50%;
     height: 600px;
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +95,6 @@
 .rightsite-content{
     width: 50%;
     height: 600px;
-    border: 2px solid green;
 }
 .leftsite-content h1{
     color: white;
