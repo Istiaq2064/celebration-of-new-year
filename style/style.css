@@ -7,7 +7,6 @@
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    border: 2px solid red;
     margin: 0 auto;
     background-image: url('../images/Banner\ Image.png');
     background-position: center;
@@ -17,17 +16,16 @@
     background-blend-mode: overlay;
     margin-top: 20px;
 }
-.image-text p, h1{
-    color: white;
-}
 .image-text p{
     font-size: 32px;
     font-weight: 400;
+    color: white;
 }
 .image-text h1{
     font-size: 72px;
     font-weight: 900;
     text-align: center;
+    color: white;
 }
 
 .image-text{
@@ -36,4 +34,93 @@
     justify-content: center;
     align-items: center;
     height: 600px;
+}
+
+/*main side offer style */
+.offer-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+
+.offer{
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+.offer h1{
+    font-size: 88px;
+    margin-bottom: 48px;
+    color: red;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer p{
+    font-size: 24px;
+    color: red;
+    margin-top: 16px;
+}
+.image{
+    margin-top: 48px;
+}
+
+.offer h4{
+    font-size: 48px;
+}
+
+.image-bannar{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url('../images/Vectorrr.png');
+    display: flex;
+
+}
+.leftsite-content{
+    width: 50%;
+    height: 600px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightsite-content{
+    width: 50%;
+    height: 600px;
+    border: 2px solid green;
+}
+.leftsite-content h1{
+    color: white;
+    font-size: 68px;
+    text-align: start;
+}
+.leftsite-content p{
+    font-size: 18px;
+    color: white;
+    margin-left: 115px;
+    margin-top: 24px;
+}
+.btn{
+    width: 103px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 48px;
+}
+.rightsite-content{
+    height: 465px;
+    width: 320px;
+    margin-top: 48PX;
+    margin-left:200px;
+    
 }
